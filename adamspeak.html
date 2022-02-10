@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Visit sabaragamuwa</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Poppins', sans-serif;
+	}
+	.banner{
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		background: url(img/banner.jpg);
+		background-size: cover;
+		background-position: bottom;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.banner #text{
+		position: relative;
+		font-size: 12em;
+		color: #fff;
+	}
+	.banner .cloud{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		pointer-events: none;
+	}
+	.banner .cloud img{
+		position: absolute;
+		bottom: 0;
+		max-width: 100%;
+		animation: animate calc(3s * var(--i)) linear infinite;
+	}
+	@keyframes animate{
+		0%{
+			opacity: 0;
+			transform: scale(1);
+		}
+		25%,75%{
+			opacity: 1;
+		}
+		100%{
+			opacity: 0;
+			transform: scale(3);
+		}
+	}
+	section{
+		position: relative;
+		padding: 75px 100px;
+	}
+	section h2{
+		position: relative;
+		font-size: 2.5em;
+		margin-bottom: 20px;
+	}
+	@media (max-width: 650px){
+		.banner #text{
+			font-size: 5em;
+		}
+		section h2{
+			font-size: 1.5em;
+			margin-bottom: 10px;
+		}
+	}
+	p{
+		font-family: 'Josefin Sans', sans-serif;
+	}
+</style>
+<script type="text/javascript">
+	const cursor = document.querySelector('.cursor');
+	document.addEventListener('mousemove'), (e) => {
+		cursor.style.left = e.pageX +'px';
+		cursor.style.top = e.pageY +'px';
+	}
+</script>
+<body >
+
+	<header>
+		<a href="home.html" class="logo"><img src="home/logo.png"></a>
+		<div class="toggle" onclick="toggleMenu();"></div>
+	</header>
+	<div class="banner">
+		<h2 id = "text">Sri Pada</h2>
+		<div class="cloud">
+			<img src="img/cloud1.png" style="--i:1">
+			<img src="img/cloud1.png" style="--i:2">
+			<img src="img/cloud1.png" style="--i:3">
+			<img src="img/cloud1.png" style="--i:4">
+			<img src="img/cloud1.png" style="--i:5">
+			<img src="img/cloud1.png" style="--i:6">
+			<img src="img/cloud1.png" style="--i:7">
+			<img src="img/cloud1.png" style="--i:8">
+			<img src="img/cloud1.png" style="--i:9">
+			<img src="img/cloud1.png" style="--i:10">
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<style type="text/css">
+		.section_01{
+			background: url(img/mountain.png);
+			height: 100vh;
+			width: 100%;
+			background-size: cover;
+			background-attachment: fixed;
+
+		}
+		.section_01 h2{
+			padding-top: 0;
+			text-align: center;
+			font-family: 'Bungee Outline', cursive;
+			bottom: 0;
+		}
+		.section_01 p{
+			text-align: center; 
+			font-size: 1.5em; 
+			letter-spacing: .5px; 
+			word-spacing: 1px;
+			color: black;
+			border-left: 3px solid darkorange;			
+			border-right: 3px solid darkorange;
+		}
+		@media (max-width: 650px){
+			.section_01 p{
+				font-size: 1em; 
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				border: none;
+			}
+			.section_01{
+				background-position: center;
+			}
+		}
+	</style>
+
+
+
+
+
+
+
+	<section class="section_01">
+		<h2>Sri Pada / Adams Peak</h2>
+		<p>Adam’s Peak, also known as <span style="color: green"> Sri Pada (sacred footstep) and Samanala Kanda (butterfly mountain) </span>, is a conical mountain standing at 2,243 metres tall (7,359 feet) in the central highlands of Sri Lanka. Trekking up the mountain is extremely popular with both tourists and locals, who are allured by its mystery as well as the enchanting beauty they are rewarded with at the top.The mountain is named for a point near the summit that is sacred to several faiths: it is a place of worship for <span style="color: orange"> Buddhists</span>, who believe that the Buddha’s footprint is located here; <span style="color: orange"> Hindus</span> believe the footprint belongs to Shiva; <span style="color: orange"> Christians and Muslims</span> believe that it is Adam’s first step after being exiled from the Garden of Eden. <span style="color: blue"> The mountain is also known for the spectacular sight of thousands of beautiful butterflies gracing the area annually</span>. Adam’s Peak is surrounded, largely by the forested hills, with no mountain of comparable size anywhere near the vicinity. </p>
+		
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+	.map p{
+		text-align: center;
+		padding: 20px;
+	}
+	.map a{
+		text-decoration: none;
+		background: orange;
+		border-radius: 25px;
+		padding: 5px;
+		color: black;
+	}
+	.map iframe{
+		width: 800px;
+		height: 600px;
+	}
+	@media (max-width: 650px){
+		.map iframe{
+			width: 300px;
+			height: 400px;
+		}
+	}
+</style>
+
+
+<section class="map" style="min-height: auto; justify-content: center;align-items: center;text-align: center;">
+	<h3>Map</h3>
+	<p>Colombo - Sri Padaya / Adams Peak</p>
+	<p>if you are in another location,goto <a href="https://www.google.com/maps/dir/Colombo/Sri+Pada+%2F+Adam's+Peak/@6.94783,80.206777,11z/data=!4m14!4m13!1m5!1m1!1s0x3ae253d10f7a7003:0x320b2e4d32d3838d!2m2!1d79.861243!2d6.9270786!1m5!1m1!1s0x3ae3977589234b59:0x8723ad471d5b37dc!2m2!1d80.4993882!2d6.809643!3e0?hl=en">more&nbsp;option</a> </p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d506919.7547918031!2d79.92658030384167!3d6.972636742956919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!3e0!4m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!4m2!1s0x3ae3977589234b59%3A0x8723ad471d5b37dc!2sSri%20Pada%20%2F%20Adam&#39;s%20Peak!5e0!3m2!1sen!2slk!4v1609490098867!5m2!1sen!2slk"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+</section>
+
+
+
+<style type="text/css">
+	.section_02{
+		min-height: 100vh;
+		background: url(img/begin.jpg);
+		background-position: right 50px bottom 0px;
+		background-repeat: no-repeat;
+	}
+	.section_02 p{
+		width: 60%;
+	}
+	p{
+		text-align: left; 
+		font-size: 1.5em; 
+		letter-spacing: .5px; 
+		word-spacing: 1px;
+		color: black;
+	}
+	h3{
+		text-align: center; 
+		padding: 10px;
+		font-family: 'Tangerine', serif;
+        font-size: 8em;
+	}
+	@media (max-width: 650px){
+		.section_02 p{
+			width: 100%;
+			font-size: 1em; 
+			letter-spacing: 0; 
+			word-spacing: 0;
+		}
+		.section_02{
+			background-position: cover;
+		}
+	}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section class="section_02" >
+		<h3>Be<span style="color: darkorange;">g</span>in</h3>
+		<p>The city of Hatton can be reached by Highland Railway line as well as by the main motor roads, the cities of Ratnapura and Kuruwita can be reached only by main motor roads.
+Access to the Adam’s Peak is possible by 6 trails: Hatton-Nallathanni; Ratnapura-Palabaddala; Kuruwita-Erathna; Murraywatte; Mookuwatte; Malimboda.
+Once you reach a final node (Nallanthanni or Palabaddala or Erathna) there begins the difficult journey through the jungle on foot. Most of the pilgrims use the Hatton route as the journey can be reduced by more than five kilometers even though the slope of this route is much greater than the others.
+</p>
+	</section>
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+	.section_03{
+		min-height: 100vh;
+		background: url(img/time.jpg);
+		background-position: right 0px bottom 0px;
+		background-repeat: no-repeat;
+	}
+	.section_03 p{
+		width: 60%;
+		border-left: 5px solid green;
+		padding-left: 5rem;
+		border-right: 5px solid green;
+		padding-right: 5rem;
+	}
+	@media (max-width: 650px){
+		.section_03 p{
+			width: 100%;
+			font-size: 1.5em; 
+			letter-spacing: 0; 
+			word-spacing: 0;
+			padding: 0;
+			border: none;
+		}
+		.section_03{
+			background-position: cover;
+		}
+	}
+</style>
+
+
+
+
+
+
+	<section class="section_03">
+		<h3>Ti<span style="color: green;">m</span>e</h3>
+		<p>The pilgrims season to Sri Pada traditionally starts on the full moon of December and ends on the full moon of April. During the first half of the season the night ascent isn’t crowded. However during the latter half of the season, more people attempt the climb with each passing day..</p>
+	</section>
+
+
+
+
+
+<style type="text/css">
+	.section_04{
+		min-height: 100vh;
+		background: url(img/night.jpg);
+		background-position: fixed;
+		background-repeat: no-repeat;
+	}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+	<section class="section_04">
+		<h3>Night <span style="color: white;">A</span>scesion</h3>
+		<p>The greater part of the track leading from the base to the summit of Adam’s peak consists of dozens of steps built in cement or rough stones being illuminated with electric power lines. The night ascent is safe even when accompanying kids. With the track having night rest stops and wayside stalls and kiosks that serve refreshments, the goal of reaching the summit on time to enjoy the spectacle of sunrise made even easier and less tiresome. 	</p><p>
+You could also arrange to climb up during the day, camp overnight enjoying the starry spectacle at the summit, witness the majesty of the beautiful sunrise the following morning and then descend. The daytime ascent affords the luxury to climb at a leisurely pace and have plenty of time to enjoy the views all round.
+</p>
+	</section>
+	
+		<section>
+		<h3>Hike</h3>
+		<img src="img/img3.jpg">
+	</section>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll',function(){
+			var header = document.querySelector('header');
+			header.classList.toggle('sticky', window.scrollY > 0);
+		});
+
+		function toggleMenu(){
+			var menuToggle = document.querySelector('.toggle');
+			var menu = document.querySelector('.menu');
+			menuToggle.classList.toggle('active');
+			menu.classList.toggle('active');
+		}
+	</script>
+
+	<footer>
+		<div class="footer-content">
+			<h3><span>Visit Sabara</span></h3>
+			<p><span style="color: white; text-align: center;">We are provided information about visiting places in Sabaragmuwa Province in Sri Lanka. If you have anything to ask from us regarding these, You can contact us via below links. We are always available to support you.</span></p>
+			<ul class="social_icon">
+				<li><a href=""><i class="fa fa-facebook"></i></a></li>
+				<li><a href=""><i class="fa fa-twitter"></i></a></li>
+				<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+				<li><a href=""><i class="fa fa-youtube"></i></a></li>
+				<li><a href=""><i class="fa fa-linkedin-square"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer-bottom">
+			<p>copoyright &copy;2020 Visit Sabara</p>
+		</div>
+	</footer>
+</body>
+</html>
